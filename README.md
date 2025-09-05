@@ -119,10 +119,28 @@ git subtree pull --prefix licenses/VSHP-EMLicense \
    git push origin 1.1.1
    ```
 
-5. (Опционально) создайте GitHub Release для тега:
+5. Сформируйте PDF для релиза:
+
+   - Установите утилиту для конвертации Markdown → PDF (если не установлена):
+
+     ```bash
+     npm i -g md-to-pdf
+     ```
+
+   - Сгенерируйте PDF из `LICENSE.md`:
+
+     ```bash
+     npx md-to-pdf LICENSE.md --pdf-options '{"format":"A4","margin":"16mm"}'
+     ```
+
+   - В результате появится файл `LICENSE.pdf` рядом с `LICENSE.md`.
+   - На шаге создания релиза прикрепите `LICENSE.pdf` как asset.
+
+6. Создайте GitHub Release для тега:
 
    - Title: `VSHP-EMLicense 1.1.1`
    - Notes: краткий список изменений
+   - Прикрепите asset: `LICENSE.pdf` (сгенерирован на предыдущем шаге).
 
 ## Контакты
 
