@@ -66,22 +66,22 @@ git subtree pull --prefix licenses/VSHP-EMLicense \
 - для последней доступной версии:
 
   ```md
-  [![Лицензия](https://flat.badgen.net/static/Лицензия/VSHP-EMLicense/781F18)](https://github.com/vshp-online/VSHP-EMLicense/blob/main/LICENSE.md)
+  [![Лицензия](https://badgers.space/badge/Лицензия/VSHP-EMLicense/781F18)](https://github.com/vshp-online/VSHP-EMLicense/blob/main/LICENSE.md)
   ```
 
   В результате отобразится бейдж со ссылкой на последнюю доступную версию:
 
-  [![Лицензия](https://flat.badgen.net/static/Лицензия/VSHP-EMLicense/781F18)](https://github.com/vshp-online/VSHP-EMLicense/blob/main/LICENSE.md)
+  [![Лицензия](https://badgers.space/badge/Лицензия/VSHP-EMLicense/781F18)](https://github.com/vshp-online/VSHP-EMLicense/blob/main/LICENSE.md)
 
 - для конкретной версии (например для 1.0.0):
 
   ```md
-  [![Лицензия](https://flat.badgen.net/static/Лицензия/VSHP-EMLicense-1.0.0/781F18)](https://github.com/vshp-online/VSHP-EMLicense/blob/1.0.0/LICENSE.md)
+  [![Лицензия](https://badgers.space/badge/Лицензия/VSHP-EMLicense-1.0.0/781F18)](https://github.com/vshp-online/VSHP-EMLicense/blob/1.0.0/LICENSE.md)
   ```
 
   В результате отобразится бейдж со ссылкой на конкретную указанную версию:
 
-  [![Лицензия](https://flat.badgen.net/static/Лицензия/VSHP-EMLicense-1.0.0/781F18)](https://github.com/vshp-online/VSHP-EMLicense/blob/1.0.0/LICENSE.md)
+  [![Лицензия](https://badgers.space/badge/Лицензия/VSHP-EMLicense-1.0.0/781F18)](https://github.com/vshp-online/VSHP-EMLicense/blob/1.0.0/LICENSE.md)
 
 ## Как выпускать версии (релизы) с тегами
 
